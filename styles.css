@@ -1,12 +1,35 @@
 body {
-  background-color: #ECDBBA;
+  background-color: rgba(128, 112, 69, 0.4);
+  padding: 0;
+  margin: 0;
+}
+
+.toop-styles {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(back1.jpg);
+  display: inline-block;
+}
+
+.logo-image {
+  
+   
 }
 
 
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
 
 a {
-  background-color: #ECDBBA;
-  color: black;
-  border: black solid;
-  border-radius: 4;
+  text-decoration: none;
+  color: azure;
+  size: 10px;
+}
+
+a::shadow {
+  color: red;
 }
